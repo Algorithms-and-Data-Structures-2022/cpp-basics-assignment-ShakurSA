@@ -7,7 +7,12 @@ using namespace assignment;
 
 int main() {
 
-  cout << "Write your code here...\n";
+  int left = 1;
+  int right = 3;
+  int res = squared_diff(left,right);
+
+  cout << res;
+
 
   return 0;
 }
